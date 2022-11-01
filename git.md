@@ -6,3 +6,7 @@ COMMIT - git commit -m "initial commit"
 REMOVE FILE FROM STAGGED AREA - git reset filename
 SEE TOTAL COMMIT - git log --oneline
 REMOVE COMMIT - git reset head^ (for recent commit)
+REMOVE MULTIPLE COMMIT - git reset~2
+
+get reset "hash"
+get revert "hash"
