@@ -14,3 +14,9 @@ get revert "hash"
 CREATE A NEW BRANCH FROM THE CURRENT BRANCH - git checkout -b "branch name"
 CHANGE BRANCH - git checkout "branch name"
 
+
+ -git remote add origin https://github.com/osho-05/full-stack.git
+ -git remote
+ -git push --set-upstream origin master
+ 
+
