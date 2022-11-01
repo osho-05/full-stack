@@ -10,3 +10,7 @@ REMOVE MULTIPLE COMMIT - git reset~2
 
 get reset "hash"
 get revert "hash"
+
+CREATE A NEW BRANCH FROM THE CURRENT BRANCH - git checkout -b "branch name"
+CHANGE BRANCH - git checkout "branch name"
+
