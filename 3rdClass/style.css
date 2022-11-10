@@ -1,0 +1,47 @@
+/*element selector*/
+input{
+    padding: 10px;
+    border: 2px;
+    margin: 10px;
+    background-color: rgb(202, 165, 165);
+}
+
+/* attribute selector*/
+input[type="password"]
+{
+    padding: 10px;
+    border: 2px;
+    margin: 10px;
+    background-color: rgb(241, 243, 151);
+}
+
+/*class selector*/
+.Phone{
+    padding: 10px;
+    border: 2px;
+    margin: 10px;
+    background-color: rgb(169, 151, 243);
+
+}
+
+/* descendent selector */
+div span{
+    background-color: aqua;
+}
+
+p:hover{
+    background-color: red;
+}
+
+p::first-letter{
+    font-size: 50px;
+}
+
+input:focus{
+    background-color: yellowgreen;
+}
+
+ul>li:nth-child(even)
+{
+    background-color: rgb(53, 232, 124);
+}
